@@ -5,8 +5,10 @@ import Navbar from "./Navbar";
 const MainPage = () => {
     return (
         <div>
-            <nav>
+                
+            <nav className="container mx-auto relative">
                 <Navbar></Navbar>
+                               
             </nav>
             <main>
                 <Outlet></Outlet>

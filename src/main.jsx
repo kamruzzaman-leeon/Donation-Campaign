@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home';
 import MainPage from './Components/MainPage';
+import Statistics from './Components/statistics';
+import Donation from './Components/Donation';
 
 
 const router = createBrowserRouter([
@@ -20,11 +22,11 @@ const router = createBrowserRouter([
       },
       {       
         path:"/donation",
-        element:<div>Donation</div>
+        element: <Donation></Donation>
       },
       {
         path:"/statistics",
-        element:<div>Statistics</div>
+        element: <Statistics></Statistics>
       },
 
     ],

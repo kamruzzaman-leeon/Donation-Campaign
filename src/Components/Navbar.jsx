@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiMenuFries} from 'react-icons/Ci';
 const Navbar = () => {
   const links = [
@@ -7,8 +7,12 @@ const Navbar = () => {
     { name: "Statistics", to: "/statistics", id: 3 },
   ];
 
+  const location = useLocation();
+  const isHome = location.pathname ==="/";
+
   return (
-    <div className="navbar w-11/12 mx-auto bg-slate-400">
+   
+    <div className={`navbar ${isHome ? "absolute top-0 left-0": "sticky top-0 left-0 right-0" }`}>
       <div className="navbar-start">
         <Link to="/">
           <img src="image/Logo.png" className="w-auto" alt="Logo" />

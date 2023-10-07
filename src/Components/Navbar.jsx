@@ -26,7 +26,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-4 z-[1] p-2 shadow bg-base-100 rounded-box w-32"
+              className="menu menu-sm dropdown-content mt-4 z-[1] p-2 shadow bg-base-100 rounded-box w-32 text-xl "
             >
               {links.map((link) => (
                 <NavLink key={link.id} to={link.to}>
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-12">
+          <ul className="menu menu-horizontal px-1 text-xl gap-12">
             {links.map((link) => (
               <NavLink key={link.id} to={link.to}>
                 {link.name}

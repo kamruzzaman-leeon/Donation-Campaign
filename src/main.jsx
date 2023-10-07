@@ -8,21 +8,25 @@ import {
 import Home from './Components/Home';
 import MainPage from './Components/MainPage';
 import Statistics from './Components/statistics';
-import Donation from './Components/Donation';
+
+
 
 
 const router = createBrowserRouter([
   {
     path:"/",
     element: <MainPage></MainPage> ,
+    
     children:[
       {
         path:"/",
-        element:<Home></Home>
+        element:<Home></Home>,
+        loader: ()=> fetch('/public/donation.json')
       },
       {       
         path:"/donation",
-        element: <Donation></Donation>
+        element: <div>Donation</div>,
+        
       },
       {
         path:"/statistics",

@@ -1,10 +1,14 @@
 import Banner from "./Banner";
+import DonationContainer from "./DonationContainer";
 
 const Home = () => {
+    
+
     return (
         <div>
             <Banner></Banner>
-            <h2>this is Home.</h2>
+            <DonationContainer></DonationContainer>
+            
         </div>
     );
 };

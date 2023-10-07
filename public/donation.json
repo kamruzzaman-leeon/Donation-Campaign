@@ -1,87 +1,6 @@
 [
     {
-      "picture": "https://i.ibb.co/fM5VRh4/Health.png",
-      "title": "Clean water for children",
-      "category": "Health",
-      "category_bg": "#0052FF33",
-      "card_bg": "#0052FF26",
-      "text_button_bg": "#0052FF",
-      "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
-      "price": "$290.00"
-    },
-    {
-        "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
-        "title": "Better Food for Everyone",
-        "category": "Food",
-        "category_bg": "#F8714733",
-        "card_bg": "#F8714726",
-        "text_button_bg": "#F87147",
-        "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
-        "price": "$290.00"
-      },
-    {
-      "picture": "https://i.ibb.co/pPmSyxq/Education.png",
-      "title": "Good education",
-      "category": "Education",
-      "category_bg": "#FF444A33",
-      "card_bg": "#FF444A26",
-      "text_button_bg": "#FF444A",
-      "description": "Good education is the cornerstone of personal growth, societal progress, and economic development. It empowers individuals with knowledge, critical thinking skills, and the ability to make informed choices. A quality education system fosters creativity, curiosity, and a lifelong love of learning. It equips students with essential life skills, from problem-solving to effective communication.",
-      "price": "$290.00"
-    },
-    {
-      "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category": "Clothing",
-      "category_bg": "#79C23F33",
-      "card_bg": "#79C23F26",
-      "text_button_bg": "#79C23F",
-      "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
-      "price": "$290.00"
-    },
-
-    {
-        "picture": "https://i.ibb.co/pPmSyxq/Education.png",
-        "title": "Good education",
-        "category": "Education",
-        "category_bg": "#FF444A33",
-        "card_bg": "#FF444A26",
-        "text_button_bg": "#FF444A",
-        "description": "Good education is the cornerstone of personal growth, societal progress, and economic development. It empowers individuals with knowledge, critical thinking skills, and the ability to make informed choices. A quality education system fosters creativity, curiosity, and a lifelong love of learning. It equips students with essential life skills, from problem-solving to effective communication.",
-        "price": "$290.00"
-      },
-    {
-      "picture": "https://i.ibb.co/fM5VRh4/Health.png",
-      "title": "Clean water for children",
-      "category": "Health",
-      "category_bg": "#0052FF33",
-      "card_bg": "#0052FF26",
-      "text_button_bg": "#0052FF",
-      "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
-      "price": "$290.00"
-    },
-    
-    {
-      "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category": "Clothing",
-      "category_bg": "#79C23F33",
-      "card_bg": "#79C23F26",
-      "text_button_bg": "#79C23F",
-      "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
-      "price": "$290.00"
-    },
-    {
-      "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
-      "title": "Better Food for Everyone",
-      "category": "Food",
-      "category_bg": "#F8714733",
-      "card_bg": "#F8714726",
-      "text_button_bg": "#F87147",
-      "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
-      "price": "$290.00"
-    },
-    {
+        "id": 1,
         "picture": "https://i.ibb.co/fM5VRh4/Health.png",
         "title": "Clean water for children",
         "category": "Health",
@@ -90,28 +9,20 @@
         "text_button_bg": "#0052FF",
         "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
         "price": "$290.00"
-      },
-      {
-        "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
-        "title": "Used Clothing Drive",
-        "category": "Clothing",
-        "category_bg": "#79C23F33",
-        "card_bg": "#79C23F26",
-        "text_button_bg": "#79C23F",
-        "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
         "price": "$290.00"
-      },
-      {
-          "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
-          "title": "Better Food for Everyone",
-          "category": "Food",
-          "category_bg": "#F8714733",
-          "card_bg": "#F8714726",
-          "text_button_bg": "#F87147",
-          "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
-          "price": "$290.00"
-        },
-      {
+    },
+    {
+        "id": 3,
         "picture": "https://i.ibb.co/pPmSyxq/Education.png",
         "title": "Good education",
         "category": "Education",
@@ -120,7 +31,104 @@
         "text_button_bg": "#FF444A",
         "description": "Good education is the cornerstone of personal growth, societal progress, and economic development. It empowers individuals with knowledge, critical thinking skills, and the ability to make informed choices. A quality education system fosters creativity, curiosity, and a lifelong love of learning. It equips students with essential life skills, from problem-solving to effective communication.",
         "price": "$290.00"
-      },
-     
-  ]
-  
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
+        "price": "$290.00"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
+        "price": "$290.00"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/fM5VRh4/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
+        "price": "$290.00"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
+        "price": "$290.00"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
+        "price": "$290.00"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/fM5VRh4/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
+        "price": "$290.00"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/ncnxkdN/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "A 'Used Clothing Drive' is a charitable initiative that collects gently worn clothing from the community and redistributes it to those in need. These drives play a vital role in promoting sustainability by reducing clothing waste and providing clothing to individuals who may not have access to it. They also offer an opportunity for communities to come together, support one another, and make a positive impact on the environment while helping those less fortunate.",
+        "price": "$290.00"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/2Ktzcbx/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Better Food for Everyone is a mission to revolutionize the way we eat. It's about promoting healthier choices, sustainable agriculture, and equitable access to nutritious food. Through education, advocacy, and innovative solutions, we aim to improve diets, reduce food waste, and support local farmers. Our goal is to create a world where everyone has the opportunity to enjoy wholesome, delicious meals while promoting a healthier planet for generations to come.",
+        "price": "$290.00"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/fM5VRh4/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Clean water for children is a fundamental necessity that safeguards their health and future. Access to clean, safe drinking water is vital for preventing waterborne diseases and ensuring proper growth and development. It empowers children to thrive, attend school regularly, and dream of brighter futures. By providing clean water, we create a world where children can quench their thirst without fear and focus on building a brighter, healthier tomorrow.",
+        "price": "$290.00"
+    }
+]

@@ -1,8 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import { toast } from 'react-toastify';
-import { saveMyDonation } from './LocalStorageMyDonation';
-
-const DonationCard = ({ donation }) => {
+const MyDonated = ({ donate }) => {
     const {
         id,
         picture,
@@ -11,11 +9,12 @@ const DonationCard = ({ donation }) => {
         category_bg,
         card_bg,
         text_button_bg,
-    } = donation;
+        price,
+    } = donate;
 
     const cardColor = {
         backgroundColor: card_bg,
-        color: text_button_bg, // Set the text color here
+        color: text_button_bg, 
     };
 
     const categoryStyle = {
@@ -25,16 +24,9 @@ const DonationCard = ({ donation }) => {
         outline: 'none',
     };
 
-    const handleMyDonation = () => {
-        toast.success("you have successfully Donate! ");
-        saveMyDonation(id);
-        
-
-
-    }
 
     return (
-        <div onClick={handleMyDonation} style={cardColor} className="card w-auto shadow-xl">
+        <div  style={cardColor} className="card w-auto shadow-xl flex flex-row">
             <figure>
                 <img src={picture} alt={title} className="w-full" />
             </figure>
@@ -42,14 +34,17 @@ const DonationCard = ({ donation }) => {
             <div className="card-body">
                 <div><button style={categoryStyle} className="btn ">{category}
                 </button></div>
-                <h2 className="card-title">{title}</h2>
+                <h2 className="card-title text-black text-2xl font-bold">{title}</h2>
+                <p className='font-bold'>{price}</p>
+                <div><button style={{backgroundColor:text_button_bg}} className="capitalize btn text-white font-bold ">View Details
+                </button></div>
             </div>
         </div>
     );
 };
 
-DonationCard.propTypes = {
-    donation: PropTypes.object,
-};
+MyDonated.propTypes = {
+    donate: PropTypes.object
+}
 
-export default DonationCard;
+export default MyDonated;

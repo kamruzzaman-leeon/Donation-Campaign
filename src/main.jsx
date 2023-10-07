@@ -8,10 +8,9 @@ import {
 import Home from './Components/Home';
 import MainPage from './Components/MainPage';
 import Statistics from './Components/statistics';
-import DonationPage from './Components/DonationPage';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import DonatedPage from './Components/DonatedPage';
 
 
 const router = createBrowserRouter([
@@ -27,8 +26,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        element: <DonationPage></DonationPage>,
-        
+        element: <DonatedPage></DonatedPage>,
+        loader: () => fetch('/donation.json'),
 
       },
       {

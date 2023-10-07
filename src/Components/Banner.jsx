@@ -12,7 +12,7 @@ const Banner = ({setCategories}) => {
     const search = SearchRef?.current?.value.toUpperCase();
 
     const filterData = allCategories.filter(item => item.category.toUpperCase().includes(search));
-    console.log(filterData.length);
+    // console.log(filterData.length);
     if (filterData.length > 0) {
       toast.success(`Total ${filterData.length} item(s) found`);
       setCategories(filterData);

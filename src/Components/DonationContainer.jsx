@@ -1,8 +1,8 @@
-import { useLoaderData } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import DonationCard from './DonationCard';
 
-const DonationContainer = () => {
-    const donations = useLoaderData();
+const DonationContainer = ({donations}) => {
+    
      
    
     return (
@@ -13,5 +13,9 @@ const DonationContainer = () => {
         </div>
     );
 };
+
+DonationContainer.propTypes={
+    donations: PropTypes.array
+}
 
 export default DonationContainer;

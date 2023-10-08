@@ -30,7 +30,7 @@ const Banner = ({setCategories}) => {
       <div className="hero-overlay bg-white bg-opacity-90 "></div>
       <div className="flex flex-col items-center justify-center h-full mx-5">
         <div className="text-center mb-2 mb:mb-10">
-          <h1 className="mb-5 text-2xl lg:text-4xl xl:text-7xl text-black font-bold">I Grow By Helping People In Need</h1>
+          <h1 className="mb-5 text-2xl lg:text-4xl xl:text-6xl text-black font-bold">I Grow By Helping People In Need</h1>
         </div>
 
         <div className="form-control text-center w-3/5">

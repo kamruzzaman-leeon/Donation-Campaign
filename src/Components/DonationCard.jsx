@@ -18,6 +18,7 @@ const DonationCard = ({ donation }) => {
     const cardColor = {
         backgroundColor: card_bg,
         color: text_button_bg, // Set the text color here
+        
     };
 
     const categoryStyle = {
@@ -37,7 +38,7 @@ const DonationCard = ({ donation }) => {
 
     return (
     
-        <Link to={`/donation/${id}`} style={cardColor} className="card w-auto shadow-xl">
+        <Link to={`/donation/${id}`} style={{textDecoration: 'none',...cardColor}} className="card w-auto shadow-xl">
             <figure>
                 <img src={picture} alt={title} className="w-full" />
             </figure>

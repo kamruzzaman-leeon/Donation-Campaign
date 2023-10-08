@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={`navbar ${isHome ? "absolute top-0 left-0": "sticky top-0 left-0 right-0" }`}>
       <div className="navbar-start">
         <Link to="/">
-          <img src="image/Logo.png" className="w-auto" alt="Logo" />
+          <img src={'https://i.ibb.co/Stvs1zP/Logo.png'} className="w-auto" alt="Logo" />
         </Link>
       </div>
       <div className="navbar-end">

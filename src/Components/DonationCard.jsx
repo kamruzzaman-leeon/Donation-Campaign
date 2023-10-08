@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
-import { toast } from 'react-toastify';
-import { saveMyDonation } from './LocalStorageMyDonation';
+import { Link } from 'react-router-dom';
+// import { toast } from 'react-toastify';
+// import { saveMyDonation } from './LocalStorageMyDonation';
+
 
 const DonationCard = ({ donation }) => {
     const {
@@ -25,16 +27,17 @@ const DonationCard = ({ donation }) => {
         outline: 'none',
     };
 
-    const handleMyDonation = () => {
-        toast.success("you have successfully Donate! ");
-        saveMyDonation(id);
+    // const handleMyDonation = () => {
+    //     toast.success("you have successfully Donate! ");
+    //     saveMyDonation(id);
         
 
 
-    }
+    // }
 
     return (
-        <div onClick={handleMyDonation} style={cardColor} className="card w-auto shadow-xl">
+    
+        <Link to={`/donation/${id}`} style={cardColor} className="card w-auto shadow-xl">
             <figure>
                 <img src={picture} alt={title} className="w-full" />
             </figure>
@@ -44,7 +47,7 @@ const DonationCard = ({ donation }) => {
                 </button></div>
                 <h2 className="card-title">{title}</h2>
             </div>
-        </div>
+        </Link>
     );
 };
 

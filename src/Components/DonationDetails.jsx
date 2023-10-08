@@ -10,9 +10,6 @@ const DonationDetails = () => {
     id,
     picture,
     title,
-    category,
-    category_bg,
-    card_bg,
     text_button_bg,
     price,
     description,
@@ -21,10 +18,10 @@ const DonationDetails = () => {
   const handleAdd = () => {
     const myDonationArray = JSON.parse(localStorage.getItem("myDonation")) || [];
 
-    const findData = myDonationArray.find((item) => item.id == id);
+    const findData = myDonationArray.find((item) => item.id === id);
 
     if (findData) {
-      toast.error("Data Already Added!");
+      toast.error("Donation Exist!");
     } else {
       myDonationArray.push(donate);
       localStorage.setItem("myDonation", JSON.stringify(myDonationArray));

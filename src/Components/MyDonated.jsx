@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 const MyDonated = ({ donate }) => {
     const {
@@ -26,12 +25,12 @@ const MyDonated = ({ donate }) => {
 
 
     return (
-        <div  style={cardColor} className="card w-auto shadow-xl flex flex-row">
+        <div  style={cardColor} className="card w-auto  flex flex-row">
             <figure>
-                <img src={picture} alt={title} className="w-full" />
+                <img src={picture} alt={title} className="w-auto h-full" />
             </figure>
 
-            <div className="card-body">
+            <div className="card-body p-4">
                 <div><button style={categoryStyle} className="btn ">{category}
                 </button></div>
                 <h2 className="card-title text-black text-2xl font-bold">{title}</h2>

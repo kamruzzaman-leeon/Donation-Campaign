@@ -10,9 +10,10 @@ import MainPage from './Components/MainPage';
 import Statistics from './Components/statistics';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import DonatedPage from './Components/DonatedPage';
+// import DonatedPage from './Components/DonatedPage';
 import ErrorPage from './Components/ErrorPage';
 import DonationDetails from './Components/DonationDetails';
+import DonatedPage from './Components/DonatedPage';
 
 
 const router = createBrowserRouter([
@@ -26,14 +27,14 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () => fetch('/donation.json'),
       },
-      // {
-      //   path: "/donation",
-      //   element: <DonatedPage></DonatedPage>,
-      //   loader: () => fetch('/donation.json'),
-
-      // },
       {
-        path:"/donation/:id",
+        path: "/donation",
+        element: <DonatedPage></DonatedPage>,
+        loader: () => fetch('/donation.json'),
+
+      },
+      {
+        path:"/donated/:id",
         element: <DonationDetails></DonationDetails>,
         loader: () => fetch('/donation.json'),
       },

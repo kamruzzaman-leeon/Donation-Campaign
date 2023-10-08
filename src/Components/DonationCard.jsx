@@ -38,7 +38,7 @@ const DonationCard = ({ donation }) => {
 
     return (
     
-        <Link to={`/donation/${id}`} style={{textDecoration: 'none',...cardColor}} className="card w-auto shadow-xl">
+        <Link to={`/donated/${id}`} style={{textDecoration: 'none',...cardColor}} className="card w-auto shadow-xl">
             <figure>
                 <img src={picture} alt={title} className="w-full" />
             </figure>

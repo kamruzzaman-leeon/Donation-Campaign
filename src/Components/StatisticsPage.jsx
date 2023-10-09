@@ -1,17 +1,29 @@
+import React, { useEffect, useState } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
-
-const data = [
-  { name: 'Your Donations', value: 4 },
-  { name: 'Total Donations', value: 12 },
-];
-
-const COLORS = ['#00C49F', '#FF444A'];
+import { getStoredMyDonation } from './LocalStorageMyDonation';
+import { useLoaderData } from 'react-router-dom';
 
 const StatisticsPage = () => {
+  const donates = useLoaderData();
+  const COLORS = ['#00C49F', '#FF444A'];
+  const [storedMyDonationLength, setStoredMyDonationLength] = useState(0);
+
+  useEffect(() => {
+    const storedMyDonation = getStoredMyDonation();
+    // console.log('Stored My Donation:', storedMyDonation);
+    const length = storedMyDonation.length;
+    // console.log('Length of storedMyDonation:', length);
+    setStoredMyDonationLength(length);
+  }, []);
+
+  const data = [
+    { name: 'Your Donations', value: storedMyDonationLength },
+    { name: 'Total Donations', value: donates.length },
+  ];
+
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
-      <h2 className="text-xl font-semibold mb-4">Donation Statistics</h2>
-      <ResponsiveContainer width="100%" height="60%">
+         <ResponsiveContainer width="100%" height="60%">
         <PieChart>
           <Pie
             data={data}
@@ -54,7 +66,7 @@ const StatisticsPage = () => {
             style={{ display: 'flex', alignItems: 'center' }}
           >
             <span>{entry.name}</span>
-            <div 
+            <div
               style={{
                 width: '20vh',
                 height: '10px',

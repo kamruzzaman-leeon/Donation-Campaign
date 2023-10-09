@@ -11,7 +11,6 @@ const DonationDetails = () => {
     picture,
     title,
     text_button_bg,
-    card_bg,
     price,
     description,
   } = donate;
@@ -35,7 +34,7 @@ const DonationDetails = () => {
       <div className="content-box mx-auto mt-10 relative">
         <div className="mb-10 relative">
           <img src={picture} alt={title} className="w-full min-h-screen" />
-          <div style={{backgroundColor:card_bg}} className="absolute bottom-0 w-full p-10 bg-opacity-50">
+          <div className="absolute bottom-0 w-full p-10 bg-opacity-60 bg-stone-600">
             <button
               onClick={handleAdd}
               style={{

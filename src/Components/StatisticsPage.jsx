@@ -1,4 +1,3 @@
-import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 const data = [
@@ -54,16 +53,16 @@ const StatisticsPage = () => {
             className="flex  mx-4"
             style={{ display: 'flex', alignItems: 'center' }}
           >
+            <span>{entry.name}</span>
             <div 
               style={{
                 width: '20vh',
                 height: '10px',
                 backgroundColor: COLORS[index % COLORS.length],
-                marginRight: '5px',
+                marginLeft: '5px',
                 borderRadius: '5%',
               }}
             />
-            <span>{entry.name}</span>
           </div>
         ))}
       </div>

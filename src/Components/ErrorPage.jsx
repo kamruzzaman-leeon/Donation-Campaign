@@ -3,17 +3,11 @@ import { Link, useRouteError } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const ErrorPage = () => {
-  const obj = {
-    status: 404,
-    statusText: "Not Found",
-    internal: true,
-    data: 'Error: No route matches URL ',
-    error: {},
-  };
+
   const error = useRouteError();
   console.log(error);
   return (
-    <>
+    <div className="w-11/12 mx-auto">
       <Navbar></Navbar>
       <div className="h-screen flex flex-col items-center justify-center gap-10">
         <h1 className="text-6xl text-red-500">
@@ -24,7 +18,7 @@ const ErrorPage = () => {
           Go to Home
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

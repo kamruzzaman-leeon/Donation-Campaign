@@ -15,6 +15,7 @@ import DonatedPage from './Components/DonatedPage';
 import StatisticsPage from './Components/StatisticsPage';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +42,8 @@ const router = createBrowserRouter([
       path: "/statistics",
       element: <StatisticsPage></StatisticsPage>,
       loader: () => fetch('/donation.json'),
-     }
+     },
+   
 
     ],
   }
